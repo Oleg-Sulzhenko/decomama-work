@@ -1,0 +1,4560 @@
+@charset "UTF-8";
+
+
+/*!
+    * WARNING: Don't edit this file by hand! Instead, you should be using scss(SASS) file.
+    * In scss(SASS) file just add your style to the end, and marked it with comment.
+    * (More information at http://sass-lang.com/)
+    * 
+*/
+
+@font-face {
+  font-family: 'Lobster';
+  src: url("../fonts/Lobster.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corki-TuscanRounded';
+  src: url("../fonts/Corki-TuscanRounded.otf") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*!START normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \000033;
+  }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000311;
+  }
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000317;
+  }
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000331;
+  }
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000337;
+  }
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000342;
+  }
+}
+
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000346;
+  }
+}
+
+a:focus {
+  outline: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000350;
+  }
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000355;
+  }
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000359;
+  }
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000364;
+  }
+}
+
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000368;
+  }
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000373;
+  }
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000381;
+  }
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000387;
+  }
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000391;
+  }
+}
+
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \0000395;
+  }
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003103;
+  }
+}
+
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003107;
+  }
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003111;
+  }
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003117;
+  }
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003121;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003125;
+  }
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003131;
+  }
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003136;
+  }
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003145;
+  }
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003150;
+  }
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003158;
+  }
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003163;
+  }
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003168;
+  }
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003174;
+  }
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003182;
+  }
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003187;
+  }
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003193;
+  }
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003198;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003203;
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Clearfix*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003209;
+  }
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003217;
+  }
+}
+
+.fleft {
+  float: left;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/_normalizeCss\.scss;
+  }
+
+  line {
+    font-family: \00003218;
+  }
+}
+
+.fright {
+  float: right;
+}
+
+/*! END ------------ normalize.css */
+
+/*----------------GENERAL THEME STYLES----------------*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000336;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000340;
+  }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: #633818;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000347;
+  }
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000348;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000349;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000350;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000351;
+  }
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000353;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lobster', Arial, sans-serif;
+  color: #f67381;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000359;
+  }
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #f67381;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000364;
+  }
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000367;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000370;
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+
+/*----------------PAGE STYLE START----------------*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000377;
+  }
+}
+
+body {
+  background: url(../img/green-bg.png) #eaf4f3;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000380;
+  }
+}
+
+body.woocommerce-page {
+  background: url(../img/pink-bg.png) #fef1eb;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000383;
+  }
+}
+
+.height {
+  min-height: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000386;
+  }
+}
+
+.main-container-to-footer {
+  padding-bottom: 255px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000389;
+  }
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000394;
+  }
+}
+
+header .wrap {
+  background: #fff;
+  padding-top: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \0000399;
+  }
+}
+
+.page-header-image {
+  border-top: #f7bb97 solid 8px;
+  border-bottom: #f7bb97 solid 8px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003102;
+  }
+}
+
+.page-header-image img {
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003106;
+  }
+}
+
+#post-2 {
+  padding-top: 34px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003109;
+  }
+}
+
+.block-style {
+  position: relative;
+  padding: 12px 24px 24px 24px;
+  margin-bottom: 32px;
+  background: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003114;
+  }
+}
+
+.block-style:before {
+  content: url(../img/under-block.png);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003121;
+  }
+}
+
+header .main-menu {
+  background: url(../img/header_decomama.png) no-repeat;
+  height: 66px;
+  margin: 0 -81px;
+  padding-top: 50px;
+  position: relative;
+  padding-bottom: 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003128;
+  }
+}
+
+header .main-menu #menu-main-menu-left li {
+  margin: 0 14px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003131;
+  }
+}
+
+header .main-menu #menu-main-menu-right li {
+  margin: 0 4px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003134;
+  }
+}
+
+header .main-menu #menu-main-menu-left,
+header .main-menu #menu-main-menu-right {
+  width: 50%;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003141;
+  }
+}
+
+header .main-menu #menu-main-menu-left li,
+header .main-menu #menu-main-menu-right li {
+  display: inline-block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003143;
+  }
+}
+
+header .main-menu #menu-main-menu-left li a,
+header .main-menu #menu-main-menu-right li a {
+  color: #fdf1ea;
+  padding: 4px 18px;
+  font-size: 24px;
+  font-family: 'Corki-TuscanRounded';
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003148;
+  }
+}
+
+header .main-menu #menu-main-menu-left li a:hover,
+header .main-menu #menu-main-menu-right li a:hover {
+  color: #38a085;
+  border-radius: 8px;
+  background: #c7e4df;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003154;
+  }
+}
+
+header .main-menu #menu-main-menu-left li.current-menu-item a,
+header .main-menu #menu-main-menu-right li.current-menu-item a {
+  color: #38a085;
+  border-radius: 8px;
+  background: #c7e4df;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003161;
+  }
+}
+
+header .main-menu #menu-main-menu-left {
+  text-align: right;
+  padding-right: 90px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003165;
+  }
+}
+
+header .main-menu #menu-main-menu-right {
+  text-align: left;
+  padding-left: 90px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003169;
+  }
+}
+
+header .main-menu #logo-placeholder {
+  display: block;
+  height: 100px;
+  left: 50%;
+  margin-left: -56px;
+  position: absolute;
+  top: 10px;
+  width: 112px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003180;
+  }
+}
+
+.avtor-blok .autor-image {
+  border-radius: 200px;
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-right: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003188;
+  }
+}
+
+.avtor-blok h2 {
+  color: #78b2a3;
+  margin-bottom: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003194;
+  }
+}
+
+.icons-my-works h2 {
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003198;
+  }
+}
+
+.icons-my-works .icons-box {
+  padding: 12px 40px;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003201;
+  }
+}
+
+.icons-my-works .icons-box .icon-item {
+  display: inline-block;
+  margin: 25px 62px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003205;
+  }
+}
+
+.icons-my-works .icons-box .icon-item a:hover {
+  text-decoration: none;
+  color: #f67381;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003210;
+  }
+}
+
+.icons-my-works .icons-box .icon-item span {
+  display: block;
+  font-family: 'Lobster',Arial,sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  padding-top: 10px;
+  color: #cba286;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003218;
+  }
+}
+
+.icons-my-works .icons-box .icon-item div {
+  border-radius: 120px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background: url(../img/all-icons-sprite.png) no-repeat;
+  -webkit-transition: background-position 0.5s ease;
+  transition: background-position 0.5s  ease;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003230;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .vysa_icon {
+  background-position: -631px -6px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003232;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .vysa_icon:hover {
+  background-position: -631px -160px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003236;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .weddind_icon {
+  background-position: -144px -6px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003238;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .weddind_icon:hover {
+  background-position: -144px -160px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003242;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .podarynok_icon {
+  background-position: -6px -6px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003244;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .podarynok_icon:hover {
+  background-position: -6px -160px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003248;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .orenda_icon {
+  background-position: -315px -6px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003250;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .orenda_icon:hover {
+  background-position: -315px -160px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003254;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .vinok_icon {
+  background-position: -474px -6px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003256;
+  }
+}
+
+.icons-my-works .icons-box .icon-item .vinok_icon:hover {
+  background-position: -474px -160px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003261;
+  }
+}
+
+.icons-my-works .icons-box .icon-item:hover span {
+  color: #f67381;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003269;
+  }
+}
+
+.images-my-works.block-style,
+.wedding-item-to-style {
+  padding: 24px 16px 24px 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003271;
+  }
+}
+
+.images-my-works.block-style h2,
+.wedding-item-to-style h2 {
+  margin: 0 0 34px 0;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003275;
+  }
+}
+
+.images-my-works.block-style .front-page-myworks-item,
+.wedding-item-to-style .front-page-myworks-item {
+  /*padding: 10px;*/
+  /*margin-bottom: 16px;*/
+  /*margin-right: 16px;*/
+  /*        width: 220px;
+          height: 123px;*/
+  -moz-box-sizing: border-box;
+  margin: 10px;
+  width: 210px;
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003291;
+  }
+}
+
+.images-my-works.block-style .front-page-myworks-item .overlay,
+.wedding-item-to-style .front-page-myworks-item .overlay {
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background: rgba(251, 217, 196, 0.5);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003299;
+  }
+}
+
+.images-my-works.block-style .front-page-myworks-item .overlay span,
+.wedding-item-to-style .front-page-myworks-item .overlay span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: 'Lobster';
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 12px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+  top: 46%;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003313;
+  }
+}
+
+.images-my-works.block-style .front-page-myworks-item:hover .overlay,
+.wedding-item-to-style .front-page-myworks-item:hover .overlay {
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003316;
+  }
+}
+
+.images-my-works.block-style .front-page-myworks-item img,
+.wedding-item-to-style .front-page-myworks-item img {
+  height: auto;
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003320;
+  }
+}
+
+.images-my-works.block-style .front-page-myworks-item a,
+.wedding-item-to-style .front-page-myworks-item a {
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003326;
+  }
+}
+
+.top-text h2 {
+  margin: 0 0 24px 0;
+  color: #78b2a3;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003330;
+  }
+}
+
+.top-text .description {
+  color: #78b2a3;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003333;
+  }
+}
+
+.top-text .description p {
+  line-height: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003338;
+  }
+}
+
+.top-text #container-for-socials {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003344;
+  }
+}
+
+#decor-categories-carousel .bx-wrapper .bx-viewport {
+  border: medium none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  left: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003349;
+  }
+}
+
+#decor-categories-carousel .bx-wrapper .bx-pager.bx-default-pager a {
+  background: none repeat scroll 0 0 #FAD9C4;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003352;
+  }
+}
+
+#decor-categories-carousel .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#decor-categories-carousel .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: none repeat scroll 0 center #B86D41;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003355;
+  }
+}
+
+#decor-categories-carousel .bx-wrapper .bx-pager.bx-default-pager a {
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003360;
+  }
+}
+
+#decor-categories-carousel .bx-wrapper img {
+  display: block;
+  height: auto;
+  max-width: none;
+  width: auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003368;
+  }
+}
+
+#decor-categories-carousel .pre-description {
+  margin: 0 0 24px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003370;
+  }
+}
+
+#decor-categories-carousel .pre-description h2 {
+  margin-bottom: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003374;
+  }
+}
+
+#decor-categories-carousel h4 {
+  text-align: center;
+  margin: 0 -22px 20px;
+  background: url(../img/hearts-line.jpg) repeat-x 0 6px;
+  color: #CBA286;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003379;
+  }
+}
+
+#decor-categories-carousel h4 span {
+  background: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003386;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks {
+  margin: 0 0 40px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003388;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block {
+  overflow: hidden;
+  padding: 0 6px;
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003392;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block .next,
+#decor-categories-carousel .carousels-blocks .carousel-block .prev {
+  background: url(../img/carousell-arrow.jpg) no-repeat 34px 22px #fad9c4;
+  border-radius: 60px;
+  height: 60px;
+  position: absolute;
+  top: 60px;
+  width: 60px;
+  z-index: 99;
+  clip: rect(0px, auto, auto, 30px);
+  opacity: 0.8;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003402;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block .next:hover,
+#decor-categories-carousel .carousels-blocks .carousel-block .prev:hover {
+  opacity: 1;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003405;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block .next a,
+#decor-categories-carousel .carousels-blocks .carousel-block .prev a {
+  display: block;
+  height: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003410;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block .prev {
+  left: -24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003413;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block .next {
+  right: -24px;
+  /* Для Firefox */
+  -ms-transform: rotate(180deg);
+  /* Для IE */
+  -webkit-transform: rotate(180deg);
+  /* Для Safari, Chrome, iOS */
+  /* Для Opera */
+  transform: rotate(180deg);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003422;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block:before {
+  content: url(../img/left-bort-carousel.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 168px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003430;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .carousel-block:after {
+  content: url(../img/right-bort-carousel.jpg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6px;
+  height: 168px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003440;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .bx-viewport a:hover span {
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003443;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .bx-viewport a span {
+  /*display: none;*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  /*background: none repeat scroll 0 0 rgba(140, 203, 190, 0.5);*/
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003451;
+  }
+}
+
+#decor-categories-carousel .carousels-blocks .bx-viewport a span p {
+  color: #FFFFFF;
+  font-family: 'Lobster';
+  font-size: 20px;
+  line-height: 24px;
+  padding: 114px 24px 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003467;
+  }
+}
+
+.wedding-icon-box .description {
+  margin-top: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003469;
+  }
+}
+
+.wedding-icon-box .description h2 {
+  margin-bottom: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003473;
+  }
+}
+
+.wedding-icon-box #wedding-icon {
+  background: url(../img/all-icons-sprite.png) no-repeat -144px -6px;
+  border-radius: 120px;
+  float: left;
+  height: 120px;
+  margin: 12px 24px 0 0;
+  width: 120px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003481;
+  }
+}
+
+.wedding-icon-box #container-for-socials {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003486;
+  }
+}
+
+.categories-filter {
+  background: #f7bb97;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003489;
+  }
+}
+
+.categories-filter ul {
+  padding: 10px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003491;
+  }
+}
+
+.categories-filter ul li {
+  border-right: 1px solid #FFFFFF;
+  display: inline;
+  padding: 0 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003495;
+  }
+}
+
+.categories-filter ul li:last-child {
+  border: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003498;
+  }
+}
+
+.categories-filter ul li.current-cat a {
+  color: inherit;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003501;
+  }
+}
+
+.categories-filter ul li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003512;
+  }
+}
+
+.single-entry-page .description p {
+  margin: 0 0 24px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003515;
+  }
+}
+
+.single-entry-page .image-gallery {
+  /*text-align: center;*/
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003517;
+  }
+}
+
+.single-entry-page .image-gallery div {
+  /*padding: 7px 10px 0 0;*/
+  padding: 13px 16px 0 0;
+  /*width: auto;*/
+  width: 293px;
+  float: left;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003523;
+  }
+}
+
+.single-entry-page .image-gallery div:nth-child(3n) {
+  padding-right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003531;
+  }
+}
+
+.orenda-block {
+  margin-bottom: 300px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003533;
+  }
+}
+
+.orenda-block .pre-description {
+  margin: 0 0 24px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003536;
+  }
+}
+
+.orenda-block #orenda-icon {
+  background: url(../img/all-icons-sprite.png) no-repeat -315px -6px;
+  border-radius: 120px;
+  float: left;
+  height: 120px;
+  margin: 12px 24px 0 0;
+  width: 120px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003544;
+  }
+}
+
+.orenda-block #orenda-maintext {
+  float: left;
+  width: 70%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003547;
+  }
+}
+
+.orenda-block #orenda-maintext h2 {
+  margin-bottom: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003551;
+  }
+}
+
+.orenda-block a {
+  float: left;
+  margin: 6px 16px 0 0;
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003556;
+  }
+}
+
+.orenda-block h3 {
+  clear: both;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003559;
+  }
+}
+
+.orenda-block .ui-accordion-header {
+  text-align: center;
+  margin: 0 -22px 20px;
+  background: url(../img/hearts-line.jpg) repeat-x 0 6px;
+  color: #CBA286;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003564;
+  }
+}
+
+.orenda-block .ui-accordion-header span {
+  background: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003570;
+  }
+}
+
+.orenda-block .ui-accordion-header:hover {
+  color: #78B2A3;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003576;
+  }
+}
+
+.orenda-block .thumnails-container {
+  padding-bottom: 40px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003578;
+  }
+}
+
+.orenda-block .thumnails-container span {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003584;
+  }
+}
+
+.orenda-block .thumnails-container span p {
+  color: #FFFFFF;
+  font-family: 'Lobster';
+  font-size: 20px;
+  line-height: 24px;
+  padding: 114px 24px 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003596;
+  }
+}
+
+#contacts-page {
+  background: none repeat scroll 0 0 transparent;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003597;
+  }
+}
+
+#contacts-page header .wrap {
+  background: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003599;
+  }
+}
+
+#contacts-page header .wrap .main-menu {
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003603;
+  }
+}
+
+#contacts-page .main-container-to-footer {
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003605;
+  }
+}
+
+#contacts-page .main-container-to-footer .block-style {
+  padding-bottom: 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003610;
+  }
+}
+
+#contacts-page .wrap {
+  background: none repeat scroll 0 0 transparent;
+  position: relative;
+  z-index: 100;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003615;
+  }
+}
+
+#contacts-page #MyGmaps {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003624;
+  }
+}
+
+#contacts-page #container-for-socials {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003628;
+  }
+}
+
+.home #mansory-container {
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003631;
+  }
+}
+
+#mansory-container {
+  padding-top: 20px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003633;
+  }
+}
+
+#mansory-container img {
+  width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003637;
+  }
+}
+
+#mansory-container ul li {
+  width: 25%;
+  /*padding: 0;*/
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003646;
+  }
+}
+
+footer {
+  background: none repeat scroll 0 0 #8CCBBE;
+  margin-top: -256px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003649;
+  }
+}
+
+footer .wrap {
+  height: 200px;
+  padding-top: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003652;
+  }
+}
+
+footer .wrap .footer-box {
+  float: left;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003654;
+  }
+}
+
+footer .wrap .footer-box #container-for-socials {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003658;
+  }
+}
+
+footer .wrap #testimonials {
+  border: 10px solid #78B2A3;
+  border-radius: 16px;
+  height: 100px;
+  padding: 10px;
+  width: 500px;
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003665;
+  }
+}
+
+footer .wrap #testimonials .bx-controls {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003668;
+  }
+}
+
+footer .wrap #testimonials .bx-viewport {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 solid #FFFFFF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  left: -5px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003674;
+  }
+}
+
+footer .wrap #testimonials .avatar-name {
+  float: left;
+  width: 150px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003677;
+  }
+}
+
+footer .wrap #testimonials .avatar-name span {
+  display: block;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003681;
+  }
+}
+
+footer .wrap #testimonials .avatar-name img {
+  height: auto;
+  width: 80px;
+  margin: 0 auto 6px;
+  display: block;
+  border-radius: 80px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003689;
+  }
+}
+
+footer .wrap #testimonials .text {
+  color: #FFFFFF;
+  float: left;
+  font-size: 12px;
+  height: 100px;
+  overflow: hidden;
+  width: 335px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003696;
+  }
+}
+
+footer .wrap #testimonials .text div {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003700;
+  }
+}
+
+footer .wrap #testimonials .next,
+footer .wrap #testimonials .prev {
+  position: absolute;
+  top: 50px;
+  left: -9px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003705;
+  }
+}
+
+footer .wrap #testimonials .next a,
+footer .wrap #testimonials .prev a {
+  background: url(../img/next-btn.png);
+  width: 25px;
+  height: 26px;
+  text-indent: 9999px;
+  display: block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003713;
+  }
+}
+
+footer .wrap #testimonials .next {
+  right: -9px;
+  left: auto;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003719;
+  }
+}
+
+footer .wrap #contac-us {
+  width: 144px;
+  margin-left: 30px;
+  margin-right: 44px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003727;
+  }
+}
+
+footer #contac-us #contact-popap {
+  width: 120px;
+  height: 120px;
+  background: url(../img/all-icons-sprite.png) no-repeat;
+  background-position: -9px -318px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003735;
+  }
+}
+
+footer #contac-us #contact-popap:hover {
+  background-position: -9px -462px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003739;
+  }
+}
+
+footer #contac-us .contact-us-form {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003743;
+  }
+}
+
+footer #contacts {
+  width: 200px;
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003747;
+  }
+}
+
+footer h3,
+footer h6 {
+  color: #e7f6f3;
+  margin-bottom: 22px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003754;
+  }
+}
+
+.copyr {
+  background: none repeat scroll 0 0 #38A086;
+  border-top: 3px solid #2F8E76;
+  height: 28px;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003759;
+  }
+}
+
+.copyr p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 26px;
+  color: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003768;
+  }
+}
+
+.icons-links {
+  margin-bottom: 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003770;
+  }
+}
+
+.icons-links h2 {
+  text-align: center;
+  margin: 12px 0 40px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003774;
+  }
+}
+
+.icons-links a {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #CBA286;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003783;
+  }
+}
+
+.icons-links a:hover {
+  text-decoration: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003786;
+  }
+}
+
+.icons-links a:hover div.zaproshennia_icon {
+  background-position: -176px -442px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003789;
+  }
+}
+
+.icons-links a:hover div.oform-zal_icon {
+  background-position: -329px -447px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003792;
+  }
+}
+
+.icons-links a:hover div.ceremonia_icon {
+  background-position: -478px -440px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003795;
+  }
+}
+
+.icons-links a:hover div.aksesuary_icon {
+  background-position: -628px -446px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003800;
+  }
+}
+
+.icons-links a span {
+  font-family: 'Lobster';
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003804;
+  }
+}
+
+.icons-links div {
+  display: inline-block;
+  border-radius: 120px;
+  width: 120px;
+  height: 120px;
+  background-image: url(../img/all-icons-sprite.png);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003810;
+  }
+}
+
+.icons-links div.zaproshennia_icon {
+  background-position: -176px -310px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003813;
+  }
+}
+
+.icons-links div.oform-zal_icon {
+  background-position: -329px -310px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003816;
+  }
+}
+
+.icons-links div.ceremonia_icon {
+  background-position: -478px -310px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003819;
+  }
+}
+
+.icons-links div.aksesuary_icon {
+  background-position: -628px -310px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003824;
+  }
+}
+
+.wedding-images {
+  margin: 0 0 300px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003826;
+  }
+}
+
+.wedding-images .image-gallery div {
+  padding: 0 12px 9px 0;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003833;
+  }
+}
+
+.wedding-images .image-gallery {
+  width: 914px !important;
+  margin: 20px 0 0 8px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003840;
+  }
+}
+
+.image-gallery li {
+  padding: 0 12px 9px 0;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003846;
+  }
+}
+
+.inside-shop-wrapper {
+  width: 660px;
+  float: right;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003850;
+  }
+}
+
+#shop-sidebar {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: none repeat scroll 0 0 #FEF1EB;
+  float: left;
+  width: 216px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003857;
+  }
+}
+
+#shop-sidebar .padding-div {
+  padding: 20px 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003861;
+  }
+}
+
+#shop-sidebar aside {
+  margin: 0 0 30px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003863;
+  }
+}
+
+#shop-sidebar aside h3 {
+  margin: 0 0 12px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003867;
+  }
+}
+
+#shop-sidebar .top-fintik {
+  background: url(../img/bot-fintik.jpg) no-repeat 0 0;
+  width: 100%;
+  height: 26px;
+  margin: 0 auto;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003874;
+  }
+}
+
+#shop-sidebar .bottom-fintik {
+  background: url(../img/bot-fintik.jpg) no-repeat 0 0;
+  height: 26px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003882;
+  }
+}
+
+.main-entry-block .main-entry-img-box {
+  float: left;
+  height: auto;
+  margin: 0 16px 20px 0;
+  width: 400px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003887;
+  }
+}
+
+.main-entry-block .main-entry-img-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003892;
+  }
+}
+
+.main-entry-block .main-entry-cat {
+  width: 100%;
+  display: block;
+  font-style: italic;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003898;
+  }
+}
+
+.main-entry-block .main-entry-text-box h2 {
+  margin-bottom: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003903;
+  }
+}
+
+.main-entry-block .categories-filter {
+  margin: 0 -24px 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003906;
+  }
+}
+
+.main-entry-block img {
+  height: auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003910;
+  }
+}
+
+.all-entrys-block {
+  padding-top: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003912;
+  }
+}
+
+.all-entrys-block .eyntry-body {
+  width: 213px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003916;
+  }
+}
+
+.all-entrys-block .eyntry-body:last-child {
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003920;
+  }
+}
+
+.all-entrys-block .eyntry-body .all-entry-img-box img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003927;
+  }
+}
+
+.all-entrys-block .main-entry-cat {
+  width: 100%;
+  display: block;
+  font-style: italic;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003933;
+  }
+}
+
+.all-entrys-block .main-entry-text-box h2 {
+  margin: 0 0 8px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003935;
+  }
+}
+
+.all-entrys-block .main-entry-text-box h2 a {
+  font-size: 22px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003941;
+  }
+}
+
+.single-post .main-entry-text-box #container-for-socials {
+  padding-top: 16px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003944;
+  }
+}
+
+.single-post .main-entry-text-box h2 {
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003948;
+  }
+}
+
+.last-news-txt {
+  color: #808080;
+  display: block;
+  font-style: italic;
+  margin: 0 0 14px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003954;
+  }
+}
+
+.pagination-box {
+  float: left;
+  padding-bottom: 16px;
+  padding-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003960;
+  }
+}
+
+.pagination-box a,
+.pagination-box span {
+  background: none repeat scroll 0 0 #FCD9C5;
+  border-radius: 50px;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  padding: 9px 14px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003969;
+  }
+}
+
+.pagination-box a:hover,
+.pagination-box span:hover {
+  background: #f67381;
+  text-decoration: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003973;
+  }
+}
+
+.pagination-box a.current,
+.pagination-box span.current {
+  background: #f67381;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003977;
+  }
+}
+
+.pagination-box .boxik {
+  display: inline-block;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003981;
+  }
+}
+
+.netx-prev-links {
+  padding-top: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003983;
+  }
+}
+
+.netx-prev-links .prev-posts {
+  float: left;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003985;
+  }
+}
+
+.netx-prev-links .prev-posts a {
+  color: inherit;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003989;
+  }
+}
+
+.netx-prev-links .next-posts {
+  float: right;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003991;
+  }
+}
+
+.netx-prev-links .next-posts a {
+  color: inherit;
+}
+
+/*----------------------------------------SHOP*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \00003998;
+  }
+}
+
+#custom-pagination.woocommerce-pagination .page-numbers {
+  border: 0 !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031001;
+  }
+}
+
+#custom-pagination.woocommerce-pagination li {
+  border: 0 !important;
+  background: none !important;
+  margin: 0 6px !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031006;
+  }
+}
+
+#custom-pagination.woocommerce-pagination li span,
+#custom-pagination.woocommerce-pagination li a {
+  background: none repeat scroll 0 0 #fcd9c5;
+  border-radius: 50px;
+  color: #FFFFFF !important;
+  display: block;
+  float: left;
+  padding: 9px 14px;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031014;
+  }
+}
+
+#custom-pagination.woocommerce-pagination li span:hover,
+#custom-pagination.woocommerce-pagination li a:hover {
+  background: #f67381 !important;
+  text-decoration: none !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031018;
+  }
+}
+
+#custom-pagination.woocommerce-pagination li span.current,
+#custom-pagination.woocommerce-pagination li a.current {
+  background: #f67381 !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031026;
+  }
+}
+
+#custom-product.products li {
+  width: 200px;
+  margin-right: 30px;
+  height: 269px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031030;
+  }
+}
+
+#custom-product.products li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031033;
+  }
+}
+
+#custom-product.products li .title-and-price {
+  float: left;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031035;
+  }
+}
+
+#custom-product.products li .title-and-price h3 {
+  font-family: 'Corki-TuscanRounded';
+  color: #633818;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031041;
+  }
+}
+
+#custom-product.products li .price {
+  clear: left;
+  color: #633818;
+  float: left;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031046;
+  }
+}
+
+#custom-product.products li .wp-post-image {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031050;
+  }
+}
+
+#custom-product.products li .buye-btn {
+  bottom: 10px;
+  position: absolute;
+  right: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031054;
+  }
+}
+
+#custom-product.products li .buye-btn a {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #f67381;
+  display: block;
+  font-family: 'Lobster',Arial,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031067;
+  }
+}
+
+#custom-product.products li .title-and-price h3 {
+  font-family: arial;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031073;
+  }
+}
+
+.woocommerce-breadcrumb {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031076;
+  }
+}
+
+.product-container {
+  background: #fef1eb;
+  padding: 12px;
+  position: relative;
+  height: 258px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031082;
+  }
+}
+
+.cool-shadow {
+  background: url(../img/product-bottom.png) no-repeat 0 0;
+  height: 9px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031088;
+  }
+}
+
+.white-gap {
+  background: #fff;
+  height: 40px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031093;
+  }
+}
+
+.all-orendas-page a {
+  float: left;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 25%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031100;
+  }
+}
+
+.all-orendas-page span {
+  bottom: 33px;
+  left: 10px;
+  padding: 0 30px 0 10px;
+  position: absolute;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: 'Lobster';
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031115;
+  }
+}
+
+.all-orendas-page #container-for-socials {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031119;
+  }
+}
+
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+  overflow: visible !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031123;
+  }
+}
+
+#colorbox #cboxWrapper div {
+  background: #38a087;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031126;
+  }
+}
+
+#colorbox #cboxTopCenter {
+  background: url("../img/all-icons-sprite.png") no-repeat scroll -9px -462px transparent !important;
+  height: 122px;
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  top: -62px;
+  width: 120px !important;
+  z-index: 10000;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031136;
+  }
+}
+
+#colorbox #cboxTopLeft,
+#colorbox #cboxTopRight,
+#colorbox #cboxBottomLeft,
+#colorbox #cboxBottomCenter,
+#colorbox #cboxBottomRight {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031140;
+  }
+}
+
+#cboxOverlay {
+  background: rgba(56, 160, 130, 0.4);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031143;
+  }
+}
+
+#wpcf7-f519-o1 {
+  background: red;
+  padding: 80px 10px 10px 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031146;
+  }
+}
+
+#wpcf7-f519-o1 input,
+#wpcf7-f519-o1 textarea {
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031152;
+  }
+}
+
+#wpcf7-f519-o1 input {
+  -moz-box-sizing: border-box;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031157;
+  }
+}
+
+#wpcf7-f519-o1 textarea {
+  height: 200px;
+  min-height: 200px;
+  max-width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031164;
+  }
+}
+
+#wpcf7-f519-o1 input[type="submit"] {
+  background: #eaf4f3;
+  border: medium none;
+  border-radius: 10px;
+  height: 36px;
+  font-family: 'Lobster';
+  color: #38a087;
+  font-size: 24px;
+  height: 42px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031175;
+  }
+}
+
+#cboxMiddleLeft {
+  border-radius: 30px 0 0 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031178;
+  }
+}
+
+#cboxMiddleRight {
+  border-radius: 0 30px  30px 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031181;
+  }
+}
+
+div.wpcf7-response-output {
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031184;
+  }
+}
+
+span.wpcf7-form-control-wrap {
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031191;
+  }
+}
+
+#nazad-btn {
+  background: url(../img/nazad.png) no-repeat;
+  width: 135px;
+  height: 62px;
+  position: absolute;
+  left: -48px;
+  top: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031199;
+  }
+}
+
+.page-id-166 .all-orendas-page,
+.single-wedding .single-entry-page,
+.tax-mytaxonomywedding .single-entry-page,
+.single-decor .single-entry-page,
+.single-orenda .single-entry-page {
+  padding-top: 80px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031206;
+  }
+}
+
+.page-id-166 .all-orendas-page h2 span,
+.single-wedding .single-entry-page h2 span,
+.tax-mytaxonomywedding .single-entry-page h2 span,
+.single-decor .single-entry-page h2 span,
+.single-orenda .single-entry-page h2 span {
+  color: #633818;
+  display: inline-block;
+  font-family: arial;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 18px;
+  vertical-align: top;
+  margin-top: -6px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031218;
+  }
+}
+
+.home #container-for-socials {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031225;
+  }
+}
+
+.type-decor .description p,
+.type-wedding .description p,
+.type-orenda .description p {
+  padding-left: 12px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031228;
+  }
+}
+
+.type-decor .description #container-for-socials,
+.type-wedding .description #container-for-socials,
+.type-orenda .description #container-for-socials {
+  padding-left: 5px;
+}
