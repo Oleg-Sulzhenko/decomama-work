@@ -11,7 +11,7 @@ function add_css_and_js() {
 
     wp_register_script('ui-custom-script', get_template_directory_uri() . '/js/jquery-ui-1.10.3.custom.min.js', array('jquery'), '0.1', false);
     wp_enqueue_script('ui-custom-script');
-    
+
     wp_register_script('prettyPhoto-script', get_template_directory_uri() . '/js/jquery.prettyPhoto.js', array('jquery'), '0.1', false);
     wp_enqueue_script('prettyPhoto-script');
 
@@ -37,21 +37,12 @@ function add_css_and_js() {
 
 add_action('wp_enqueue_scripts', 'add_css_and_js'); // more parametrs exist 
 
-//function color_b() {
-//        
-//
-//    //CSS----------------
-//    wp_register_style('wp-styles', get_template_directory_uri() . '/style.css');
-//    wp_enqueue_style('wp-styles');
-//        
-//}
-//add_action('easy_image_gallery_js', 'color_b');
+function add_css_in_admin() {
+    wp_register_style('wp-admin-styles', get_template_directory_uri() . '/css/admin.css');
+    wp_enqueue_style('wp-admin-styles');
+}
 
-
-
-
-
-//add_action ( 'admin_enqueue_scripts', 'add_css_and_js' ); // for uploading sripts in admin area
+add_action('admin_enqueue_scripts', 'add_css_in_admin'); // for uploading sripts in admin area
 //----------------------------------------------------------------------------------
 //Widgets Menus Sidebars Areas Initialization
 
@@ -352,19 +343,6 @@ function register_cpt_testimonial() {
     register_post_type('testimonial', $args);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 if (!class_exists('Tax_CTP_Filter')) {
 
     /**
@@ -480,3 +458,58 @@ function add_my_currency_symbol($currency_symbol, $currency) {
     }
     return $currency_symbol;
 }
+
+//Woocomerce----------------------------------
+// Hook in
+add_filter('woocommerce_checkout_fields', 'custom_override_checkout_fields');
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields($fields) {
+    unset($fields['order']['order_comments']);
+    unset($fields['billing']['billing_company']);
+    unset($fields['billing']['billing_address_1']);
+    unset($fields['billing']['billing_address_2']);
+    unset($fields['billing']['billing_city']);
+    unset($fields['billing']['billing_postcode']);
+    unset($fields['billing']['billing_country']);
+    unset($fields['billing']['billing_state']);
+    unset($fields['billing']['billing_last_name']);
+
+    $fields['billing']['billing_first_name']['label'] = 'Імя';
+    $fields['billing']['billing_email']['label'] = 'Емейл';
+    $fields['billing']['billing_phone']['label'] = 'Контактиний телефон';
+
+    return $fields;
+}
+
+function custom_menu_order($menu_ord) {
+    if (!$menu_ord)
+        return true;
+
+    return array(
+        'edit.php?post_type=page', // Pages        
+        'edit.php', // Posts
+        'edit.php?post_type=testimonial', // Testimonial
+        'separator1', // First separator
+        'separator2', // First separator
+        'edit.php?post_type=decor',
+        'edit.php?post_type=orenda',
+        'edit.php?post_type=wedding',
+        'separator3', // First separator
+        'separator4', // First separator
+        'upload.php', // Media
+        'link-manager.php', // Links
+        'edit-comments.php', // Comments
+        'separator2', // Second separator
+        'themes.php', // Appearance
+        'plugins.php', // Plugins
+        'users.php', // Users
+        'tools.php', // Tools
+        'options-general.php', // Settings
+        'separator-last', // Last separator
+        'index.php', // Dashboard
+    );
+}
+
+add_filter('custom_menu_order', 'custom_menu_order'); // Activate custom_menu_order
+add_filter('menu_order', 'custom_menu_order');

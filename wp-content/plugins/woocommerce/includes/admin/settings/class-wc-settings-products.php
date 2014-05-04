@@ -262,7 +262,7 @@ class WC_Settings_Products extends WC_Settings_Page {
 				),
 
 				array(
-					'title' => __( 'Add to cart', 'woocommerce' ),
+					'title' => __( 'Купити', 'woocommerce' ),
 					'desc' 		=> __( 'Redirect to the cart page after successful addition', 'woocommerce' ),
 					'id' 		=> 'woocommerce_cart_redirect_after_add',
 					'default'	=> 'no',

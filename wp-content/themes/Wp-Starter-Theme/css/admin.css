@@ -1,0 +1,15 @@
+#advanced-sortables,
+#woocommerce-product-data span.type_box,
+.options_group.hide_if_grouped,
+.inventory_options,
+.shipping_options,
+.linked_product_options,
+.advanced_options,
+#postcustom,
+#commentsdiv,
+.post-type-product #postdivrich,
+#tagsdiv-product_tag,
+#wp-admin-bar-comments
+{
+    display: none !important;
+}

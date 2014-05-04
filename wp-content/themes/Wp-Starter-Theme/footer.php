@@ -32,8 +32,8 @@
                         </li>
                     <?php endwhile; ?>
                 </ul>
-                <div class="next"></div>
-                <div class="prev"></div>
+                <div class="next-t"></div>
+                <div class="prev-t"></div>
             </div>
         </div>
 

@@ -77,8 +77,8 @@ jQuery(document).ready(function($) {
         controls: true,
         infiniteLoop: false,
         useCSS: false,
-        nextSelector: '.next',
-        prevSelector: '.prev'
+        nextSelector: '.next-t',
+        prevSelector: '.prev-t'
     });
 
 });

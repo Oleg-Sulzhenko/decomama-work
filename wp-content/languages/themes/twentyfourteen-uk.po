@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fourteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-20 10:01:47+0000\n"
+"PO-Revision-Date: 2014-04-28 13:55:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,10 +10,52 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Twenty Fourteen\n"
 
+#: inc/customizer.php:102
+msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
+msgstr "На головній сторінці можна відобразити до 6 записів у вигляді сітки або слайдера, позначених<a href=\"%1$s\">міткою</a>. Перейменувати мітку і вибрати варіант відображення можна на екрані <a href=\"%2$s\">«Зовнішній вигляд» &rarr; «Налаштувати»</a>. Якщо записів з міткою не знайдено, будуть відображатися <a href=\"%3$s\">приліплені записи</a>."
+
+#: inc/widgets.php:59
+msgid "More videos"
+msgstr "Інші відео"
+
+#: inc/widgets.php:63
+msgid "More audio"
+msgstr "Інші аудіо"
+
+#: inc/widgets.php:67
+msgid "More quotes"
+msgstr "Інші цитати"
+
+#: inc/widgets.php:71
+msgid "More links"
+msgstr "Інші посилання"
+
+#: inc/widgets.php:75
+msgid "More galleries"
+msgstr "Інші галереї"
+
+#: inc/widgets.php:80
+msgid "More asides"
+msgstr "Інші замітки"
+
+#: inc/widgets.php:206
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/customizer.php:37 inc/customizer.php:102 inc/featured-content.php:410
+#: inc/featured-content.php:419 inc/featured-content.php:479
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr "featured"
+
+#: inc/widgets.php:36
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr "Використовуйте цей віджет для відображення ваших свіжих заміток, цитат, відео та аудіозаписів, зображень, галерей і посилань."
+
 msgid "http://wordpress.org/themes/twentyfourteen"
 msgstr "http://wordpress.org/themes/twentyfourteen"
 
-#: inc/customizer.php:36
+#: inc/customizer.php:36 inc/featured-content.php:409
 msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
 msgstr "Використовуйте <a href=\"%1$s\">мітку</a>, щоб позначити записи як обрані. Якщо жодного запису з міткою не знайдено, будуть відображатися <a href=\"%2$s\">приліплені записи</a>."
 
@@ -25,11 +67,7 @@ msgstr "Не знайдено"
 msgid "Display Site Title &amp; Tagline"
 msgstr "Відображати назву і опис"
 
-#: inc/customizer.php:101
-msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by the <a href=\"%1$s\">featured</a> tag; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
-msgstr "На головній сторінці можна відобразити до 6 записів у вигляді сітки або слайдера, позначених міткою <a href=\"%1$s\">&laquo;featured&raquo;</a>. Перейменувати мітку і вибрати варіант відображення можна на екрані <a href=\"%2$s\">&laquo;Зовнішній вигляд&raquo; &rarr; &laquo;Налаштувати&raquo;</a>. Якщо записів з міткою не знайдено, будуть відображатися <a href=\"%3$s\">приліплені записи</a>."
-
-#: inc/customizer.php:103
+#: inc/customizer.php:104
 msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
 msgstr "Детальні інструкції та додаткову інформацію можна знайти в <a href=\"%s\">документації Twenty Fourteen</a>."
 
@@ -47,26 +85,22 @@ msgstr "Y"
 msgid "Site Title Color"
 msgstr "Колір назви сайту"
 
-#: inc/featured-content.php:409
-msgid "Use the <a href=\"%1$s\">\"featured\" tag</a> to feature your posts. You can change this to a tag of your choice; if no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
-msgstr "Використовуйте <a href=\"%1$s\">мітку &laquo;featured&raquo;</a>, щоб позначити записи як обрані. Можна перейменувати цю мітку по вашому розсуду; якщо жодного запису з міткою не знайдено, будуть відображатися <a href=\"%2$s\">приліплені записи</a>."
-
-#: inc/featured-content.php:428
+#: inc/featured-content.php:431
 msgid "Tag Name"
 msgstr "Назва мітки"
 
-#: inc/featured-content.php:433
+#: inc/featured-content.php:436
 msgid "Don&rsquo;t display tag on front end."
 msgstr "Не відображати мітку на сайті."
 
 msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
 msgstr "У 2014 році наша тема за замовчуванням дозволить вам створити адаптивний журнальний сайт з сучасним дизайном. Відобразіть на головній свої улюблені записи у вигляді сітки або слайдера. Використовуйте три області для віджетів, щоб налаштувати свій сайт. Спробуйте також змінити уявлення вмісту за допомогою шаблону сторінки на всю ширину і створіть сторінку учасників, щоб показати авторів сайту. Створити журнальний сайт на WordPress стало простіше, ніж коли-небудь."
 
-#: functions.php:260
+#: functions.php:254
 msgid "Previous"
 msgstr "Назад"
 
-#: functions.php:261
+#: functions.php:255
 msgid "Next"
 msgstr "Вперед"
 
@@ -85,19 +119,19 @@ msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ","
 
-#: functions.php:186
+#: functions.php:182
 msgid "Additional sidebar that appears on the right."
 msgstr "Додаткова бічна колонка справа."
 
-#: functions.php:193
+#: functions.php:189
 msgid "Footer Widget Area"
 msgstr "Область підвалу"
 
-#: functions.php:195
+#: functions.php:191
 msgid "Appears in the footer section of the site."
 msgstr "Відображається в нижній частині сайту."
 
-#: functions.php:384
+#: functions.php:372
 msgid "%d Article"
 msgid_plural "%d Articles"
 msgstr[0] "%d стаття"
@@ -112,7 +146,7 @@ msgstr "Попереднє зображення"
 msgid "Next Image"
 msgstr "Наступне зображення"
 
-#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
 msgstr "Тема Twenty Fourteen вимагає WordPress 3.6 або вище. У вас версія %s. Будь ласка, поновіть WordPress і спробуйте ще раз."
 
@@ -124,70 +158,62 @@ msgstr "Фон може відображатися тільки на широк�
 msgid "Featured Content"
 msgstr "Вибраний вміст"
 
-#: inc/customizer.php:47
+#: inc/customizer.php:50
 msgid "Layout"
 msgstr "Розмітка"
 
-#: inc/customizer.php:51
+#: inc/customizer.php:54
 msgid "Grid"
 msgstr "Сітка"
 
-#: inc/customizer.php:52
+#: inc/customizer.php:55
 msgid "Slider"
 msgstr "Слайдер"
 
-#: inc/customizer.php:102
+#: inc/customizer.php:103
 msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
 msgstr "Покращіть дизайн вашого сайту за допомогою <a href=\"%s\">мініатюр записів</a>. Ця функція дозволяє зв'язати зображення із записом, не вставляючи його. Тема Twenty Fourteen використовує мініатюри для записів і сторінок (над заголовком), а також у розділі &laquo;Вибраний вміст&raquo; на головній."
 
-#: inc/template-tags.php:55
+#: inc/template-tags.php:53
 msgid "Posts navigation"
 msgstr "Навігація по записах"
 
-#: inc/template-tags.php:88
+#: inc/template-tags.php:84
 msgid "<span class=\"meta-nav\">Published In</span>%title"
 msgstr "<span class=\"meta-nav\">Опубліковано в</span>%title"
 
-#: inc/template-tags.php:90
+#: inc/template-tags.php:86
 msgid "<span class=\"meta-nav\">Previous Post</span>%title"
 msgstr "<span class=\"meta-nav\">Попередній запис</span>%title"
 
-#: inc/template-tags.php:91
+#: inc/template-tags.php:87
 msgid "<span class=\"meta-nav\">Next Post</span>%title"
 msgstr "<span class=\"meta-nav\">Наступний запис</span>%title"
 
-#: inc/widgets.php:44
+#: inc/widgets.php:34
 msgid "Twenty Fourteen Ephemera"
 msgstr "Швидкоплинне (Twenty Fourteen)"
 
-#: inc/widgets.php:46
-msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts"
-msgstr "Використовуйте цей віджет для списку ваших останніх записів, Цитат, Відео, Аудіо, зображення, Галереї і посилань"
-
-#: inc/widgets.php:56 taxonomy-post_format.php:39
+#: inc/widgets.php:62 taxonomy-post_format.php:39
 msgid "Audio"
 msgstr "Аудіо"
 
-#: inc/widgets.php:148
+#: inc/widgets.php:162
 msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
 msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
 msgstr[0] "Ця галерея містить<a href=\"%1$s\" rel=\"bookmark\">%2$s фотографію</a>."
 msgstr[1] "Ця галерея містить<a href=\"%1$s\" rel=\"bookmark\">%2$s фотографії</a>."
 msgstr[2] "Ця галерея містить<a href=\"%1$s\" rel=\"bookmark\">%2$s фотографій</a>."
 
-#: inc/widgets.php:189
-msgid "More %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Інші %s <span class=\"meta-nav\">&rarr;</span>"
-
-#: inc/widgets.php:236
+#: inc/widgets.php:255
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: inc/widgets.php:239
+#: inc/widgets.php:258
 msgid "Number of posts to show:"
 msgstr "Кількість записів:"
 
-#: inc/widgets.php:242
+#: inc/widgets.php:261
 msgid "Post format to show:"
 msgstr "Формат записів:"
 
@@ -256,25 +282,25 @@ msgstr "Редагувати"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
-#: content-video.php:37 content.php:38 inc/widgets.php:180
+#: content-video.php:37 content.php:38 inc/widgets.php:194
 msgid "Leave a comment"
 msgstr "Написати коментар"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
-#: content-video.php:37 content.php:38 inc/widgets.php:180
+#: content-video.php:37 content.php:38 inc/widgets.php:194
 msgid "1 Comment"
 msgstr "1 Коментарій"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
-#: content-video.php:37 content.php:38 inc/widgets.php:180
+#: content-video.php:37 content.php:38 inc/widgets.php:194
 msgid "% Comments"
 msgstr "% Коментарів"
 
 #: content-aside.php:46 content-audio.php:46 content-gallery.php:46
 #: content-image.php:46 content-link.php:46 content-quote.php:46
-#: content-video.php:46 content.php:54 inc/widgets.php:113 inc/widgets.php:158
+#: content-video.php:46 content.php:54 inc/widgets.php:127 inc/widgets.php:172
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Читати далі <span class=\"meta-nav\">&rarr;</span>"
 
@@ -294,24 +320,24 @@ msgstr "Основне верхнє меню"
 msgid "Secondary menu in left sidebar"
 msgstr "Додаткове меню зліва"
 
-#: functions.php:175
+#: functions.php:171
 msgid "Primary Sidebar"
 msgstr "Основна колонка"
 
-#: functions.php:177
+#: functions.php:173
 msgid "Main sidebar that appears on the left."
 msgstr "Основна бічна колонка зліва."
 
-#: functions.php:184
+#: functions.php:180
 msgid "Content Sidebar"
 msgstr "Колонка вмісту"
 
-#: functions.php:217
+#: functions.php:213
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:500
+#: functions.php:488
 msgid "Page %s"
 msgstr "Сторінка %s"
 
@@ -327,19 +353,19 @@ msgstr "Головне меню"
 msgid "Skip to content"
 msgstr "Переміститись до тексту"
 
-#: inc/template-tags.php:84
+#: inc/template-tags.php:80
 msgid "Post navigation"
 msgstr "Навігація по публікаціям"
 
-#: inc/template-tags.php:47
+#: inc/template-tags.php:45
 msgid "&larr; Previous"
 msgstr "&larr; Попереднє"
 
-#: inc/template-tags.php:48
+#: inc/template-tags.php:46
 msgid "Next &rarr;"
 msgstr "Наступне &rarr;"
 
-#: inc/template-tags.php:110
+#: inc/template-tags.php:104
 msgid "Sticky"
 msgstr "Приліплена"
 
@@ -359,7 +385,7 @@ msgstr "Вибачте, за вашим запитом нічого не зна�
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Інформацію за запитом знайти не вдалося. Можливо, буде корисний пошук по сайту."
 
-#: inc/widgets.php:55 taxonomy-post_format.php:36
+#: inc/widgets.php:58 taxonomy-post_format.php:36
 msgid "Videos"
 msgstr "Відео"
 
@@ -367,19 +393,23 @@ msgstr "Відео"
 msgid "Images"
 msgstr "Зображення"
 
-#: inc/widgets.php:59 taxonomy-post_format.php:48
+#: inc/widgets.php:55
+msgid "More images"
+msgstr ""
+
+#: inc/widgets.php:74 taxonomy-post_format.php:48
 msgid "Galleries"
 msgstr "Галереї"
 
-#: inc/widgets.php:53 taxonomy-post_format.php:30
+#: inc/widgets.php:79 taxonomy-post_format.php:30
 msgid "Asides"
 msgstr "Нотатки"
 
-#: inc/widgets.php:58 taxonomy-post_format.php:45
+#: inc/widgets.php:70 taxonomy-post_format.php:45
 msgid "Links"
 msgstr "Посилання"
 
-#: inc/widgets.php:57 taxonomy-post_format.php:42
+#: inc/widgets.php:66 taxonomy-post_format.php:42
 msgid "Quotes"
 msgstr "Цитати"
 
@@ -387,7 +417,7 @@ msgstr "Цитати"
 msgid "Search Results for: %s"
 msgstr "Результати пошуку для фрази: %s"
 
-#: inc/customizer.php:98
+#: inc/customizer.php:99
 msgid "Twenty Fourteen"
 msgstr "Twenty Fourteen"
 

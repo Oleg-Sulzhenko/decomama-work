@@ -33,8 +33,8 @@ if ( $order ) : ?>
 
 	<?php else : ?>
 
-		<p><?php _e( 'Thank you. Your order has been received.', 'woocommerce' ); ?></p>
-
+		<p><?php _e( 'Дякуэмо, Ваше замовлення було прийняте.', 'woocommerce' ); ?></p>
+                <br/>
 		<ul class="order_details">
 			<li class="order">
 				<?php _e( 'Order:', 'woocommerce' ); ?>
@@ -49,18 +49,18 @@ if ( $order ) : ?>
 				<strong><?php echo $order->get_formatted_order_total(); ?></strong>
 			</li>
 			<?php if ( $order->payment_method_title ) : ?>
-			<li class="method">
+<!--			<li class="method">
 				<?php _e( 'Payment method:', 'woocommerce' ); ?>
 				<strong><?php echo $order->payment_method_title; ?></strong>
-			</li>
+			</li>-->
 			<?php endif; ?>
 		</ul>
 		<div class="clear"></div>
 
 	<?php endif; ?>
 
-	<?php do_action( 'woocommerce_thankyou_' . $order->payment_method, $order->id ); ?>
-	<?php do_action( 'woocommerce_thankyou', $order->id ); ?>
+	<?php // do_action( 'woocommerce_thankyou_' . $order->payment_method, $order->id ); ?>
+	<?php // do_action( 'woocommerce_thankyou', $order->id ); ?>
 
 <?php else : ?>
 

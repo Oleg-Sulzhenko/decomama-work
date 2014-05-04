@@ -24,10 +24,10 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<tr>
 			<th class="product-remove">&nbsp;</th>
 			<th class="product-thumbnail">&nbsp;</th>
-			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
-			<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
-			<th class="product-quantity"><?php _e( 'Quantity', 'woocommerce' ); ?></th>
-			<th class="product-subtotal"><?php _e( 'Total', 'woocommerce' ); ?></th>
+			<th class="product-name">Назва</th>
+			<th class="product-price">Ціна</th>
+			<th class="product-quantity">Кількість</th>
+			<th class="product-subtotal">Загальна ціна</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -122,7 +122,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 					</div>
 				<?php } ?>
 
-				<input type="submit" class="button" name="update_cart" value="<?php _e( 'Update Cart', 'woocommerce' ); ?>" /> <input type="submit" class="checkout-button button alt wc-forward" name="proceed" value="<?php _e( 'Proceed to Checkout', 'woocommerce' ); ?>" />
+				<input type="submit" class="button" name="update_cart" value="Оновити" /> <input type="submit" class="checkout-button button alt wc-forward" name="proceed" value="Оформити замовлення" />
 
 				<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 
