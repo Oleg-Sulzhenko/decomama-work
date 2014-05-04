@@ -4349,7 +4349,9 @@ footer h6 {
 }
 
 #wpcf7-f519-o1 input {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 14px;
   padding: 6px 10px;
 }
@@ -5123,4 +5125,18 @@ span.wpcf7-form-control-wrap {
 .woocommerce .related h2,
 .woocommerce-page .related h2 {
   margin-bottom: 24px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/T\:\/home\/decomama\.work\/www\/wp-content\/themes\/Wp-Starter-Theme\/css\/sass\/theme\.scss;
+  }
+
+  line {
+    font-family: \000031386;
+  }
+}
+
+#cboxLoadedContent {
+  overflow: hidden !important;
 }
